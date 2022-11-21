@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color: rgb(22, 163, 76);
+    text-align: center;
+    padding: 20px;
+}
+h2{
+    color: rgba(9, 55, 63, 0.856);
+    text-align: center;
+    padding: 15px;
+}
+h4{
+    text-align: center;
+    padding: 15px;
+}
+p{
+    text-align: center;
+}
+.example img {
+    width: 100%;
+    position: relative;
+    box-shadow: 5px 10px #888888;
+}
+.example .overlay {
+    position: absolute;
+    top: 400px;
+    right: 250px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  input[type=submit] {
+    background-color: rgb(22, 163, 76);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+a:link {
+    color: #FF0000;
+  }
+  
+ 
+  a:visited {
+    color: #00FF00;
+  }
+  
+ 
+  a:hover {
+    color: #FF00FF;
+  }
+
+  a:active {
+    color: #0000FF;
+  }
